@@ -42,33 +42,24 @@ LaTeX file on your local workstation.
 ## Introduction
 
 This assignment requires a researcher to write a LaTeX document, stored in the
-file `senior_thesis_status_update.tex`, that explains three key aspects of work
-that you have completed for your proposed senior thesis research project. First,
-you should state the final title for your senior thesis. Second, you should
-write a one-paragraph abstract that explains your proposed research. Third, you
-should include a bulleted list of the steps that you have taken to demonstrate
-the feasibility of your proposed research.
-
-The researcher is also responsible for writing a one-paragraph reflection,
-stored in the file `reflection.md`, that explains the challenges that you faced
-and the solutions you developed when completing this project. This is a Markdown
-file that must adhere to the standards described in the [Markdown Syntax
-Guide](https://guides.github.com/features/mastering-markdown/). Remember, you
-can preview the contents of a comitted Markdown file by clicking on the name of
-the file in your GitHub repository.
+file `AllegThesis.tex`, that includes a complete outline for your senior thesis
+and the final version of two chapters of your senior thesis. Please see the
+course syllabus and your first reader for more details about the expected
+content of these two chapters.
 
 If both your LaTeX source code and your writing meet all of the established
 requirements, then you will see a green &#x2714; in the listing of commits in
 GitHub. If your submission does not meet the requirements, a red &#x2717; will
 appear instead. Your course  instructor will reduce a researcher's grade for
 this assignment if the red &#x2717; appears on the last commit in GitHub
-immediately before the assignment's due date on October 3, 2017 at 9:00 a.m..
+immediately before the assignment's due date on December 12, 2017 at 12:00
+midnight.
 
-Yet, if the green &#x2714; appears on the last commit in your GitHub
-repository, then you satisfied all of the main checks, thereby allowing the
-course instructors to further evaluate other aspects of your LaTeX source code
-and writing, as further described in the remainder of this assignment sheet.
-Unless you provide the course instructors with documentation of the extenuating
+Yet, if the green &#x2714; appears on the last commit in your GitHub repository,
+then you satisfied all of the main checks, thereby allowing the course
+instructors to further evaluate other aspects of your LaTeX source code and
+writing, as described in the remainder of this assignment sheet. Unless you
+provide the course instructors with documentation of the extenuating
 circumstances that you are facing, no late work will be considered towards your
 grade for this project.
 
