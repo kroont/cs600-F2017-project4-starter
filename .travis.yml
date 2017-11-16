@@ -1,7 +1,7 @@
 before_install:
 - sudo apt-get -qq update && sudo apt-get install -y --no-install-recommends latexmk
   texlive-fonts-extra texlive-fonts-recommended texlive-latex-base texlive-latex-extra
-  texlive-latex-recommended
+  texlive-latex-recommended texlive-pictures texlive-science
 script:
 - mkdir _build
 - latexmk -pdf -outdir=_build AllegThesis.tex
