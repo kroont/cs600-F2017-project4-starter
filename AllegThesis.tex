@@ -142,9 +142,9 @@
 
 \include{abstract}  % REQUIRED!
 
-\include{dedication} % OPTIONAL
+% \include{dedication} % OPTIONAL
 
-\include{ack}       % OPTIONAL, BUT ALMOST EVERYONE INCLUDES IT
+% \include{ack}       % OPTIONAL, BUT ALMOST EVERYONE INCLUDES IT
 
 %   ********************************************************************
 %   * FRONT MATTER--TABLE OF CONTENTS, ETC. YOU PROBABLY DON'T NEED TO *
@@ -243,8 +243,6 @@
 
 \nocite{*} % OR DO THIS TO INCLUDE ALL BIBTEX REFERENCES IN THE BIBLIOGRAPHY
 
-\bibliographystyle{plain}
-
 %   ********************************************************************
 %   * IF YOU HAVE YOUR BIBLIOGRAPHY IN A SEPARATE ".bib" FILE, HERE IS *
 %   * WHERE YOU MUST SPECIFY IT. IN THIS EXAMPLE, THE BIBLIOGRAPHY     *
@@ -253,6 +251,7 @@
 %   ********************************************************************
 
 \begin{spacing}{1}
+\bibliographystyle{plain}
 \bibliography{Bibdir/myBibtexDB}    % File type ".bib" is assumed
 \end{spacing}
 
