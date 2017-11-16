@@ -124,39 +124,37 @@ all GitHub projects are asked to adopt.
 
 Please note that the faculty members who read the PDF that is generated from the
 LaTeX source code will only do so by downloading the "tagged" release of the
-file `senior_thesis_status_update.pdf` that has a version number greater than
-1.0.0. That is, if your commit is tagged with
-`senior_thesis_status_update-gkapfham-1.0.0`, then the file
-`senior_thesis_status_update.pdf` should be available for download in the
-"Releases" tab in your GitHub repository for this project under the name
-`senior_thesis_status_update-gkapfham-1.0.0`.
+file `AllegThesis.pdf` that has a version number greater than 1.0.0. That is, if
+your commit is tagged with `AllegThesis-gkapfham-1.0.0`, then the file
+`AllegThesis.pdf` should be available for download in the "Releases" tab in your
+GitHub repository for this project under the name `AllegThesis-gkapfham-1.0.0`.
 
-Once you have finished making a single small change to the
-`senior_thesis_status_update.tex`, you should commit your file using a `git
-commit` command. Now, to create your first tag for this repository you could
-type `git tag senior_thesis_status_update-gkapfham-0.1.0`. Of course, you should
-substitute your user name for `gkapfham` when you create the tag. At this point,
-you are ready to push your changes with the appropriate tag by typing the
-command `git push -u origin master --tags`. After waiting for a period of time,
-you should see that your GitHub repository features a new release of the
-document that you must create for this project.
+Once you have finished making a single small change to the `AllegThesis.tex`,
+you should commit your file using a `git commit` command. Now, to create your
+first tag for this repository you could type `git tag
+AllegThesis-gkapfham-0.1.0`. Of course, you should substitute your user name for
+`gkapfham` when you create the tag. At this point, you are ready to push your
+changes with the appropriate tag by typing the command `git push -u origin
+master --tags`. After waiting for a period of time, you should see that your
+GitHub repository features a new release of the document that you must create
+for this project.
 
 When you make subsequent changes to your files and perform commits and you are
-ready to release a new version of `senior_thesis_status_update.pdf`, then you
-should again tag your work &mdash; before running a push &mdash; with a tag that
-adheres to the [Semantic Versioning](http://semver.org/) standard. Each time
-that you correctly execute this sequence of commands you will release a new
-version of your document to GitHub that is easily accessible as a PDF to you and
-to your first and second readers. If you are unable to create a tagged release
-using the automated system that Travis provides you can manually create one by
-using GitHub's web interface; to adopt the manual approach please click the
-"Draft a new release" button in the Releases tab of your GitHub repository.
+ready to release a new version of `AllegThesis.pdf`, then you should again tag
+your work &mdash; before running a push &mdash; with a tag that adheres to the
+[Semantic Versioning](http://semver.org/) standard. Each time that you correctly
+execute this sequence of commands you will release a new version of your
+document to GitHub that is easily accessible as a PDF to you and to your first
+and second readers. If you are unable to create a tagged release using the
+automated system that Travis provides you can manually create one by using
+GitHub's web interface; to adopt the manual approach please click the "Draft a
+new release" button in the Releases tab of your GitHub repository.
 
 ## Updates
 
-If a course instructor updates the provided material for this assignment and
-you would like to receive these updates, then you can type this command in the
-main directory for this assignment:
+If a course instructor updates the provided material for this assignment and you
+would like to receive these updates, then you can type this command in the main
+directory for this assignment:
 
 ```
 git remote add download git@github.com:Allegheny-Computer-Science-600-F2017/cs600-F2017-project4-starter.git
@@ -190,7 +188,7 @@ experienced.
 Please note that these assignment sheets have been developed and tested on an
 Ubuntu 16.04 workstation running a recent version of LaTeX that was manually
 installed using the TeXLive installer. It is also worth noting that you can
-compile the `senior_thesis_status_update.tex` file using LaTeX development tools
+compile the `AllegThesis.tex` file using LaTeX development tools
 such as `latexmk` or `pdflatex`. If you are unable to compile this file with
 your development tools and your execution environment, then please open a new
 issue and we will attempt to resolve your concerns.
